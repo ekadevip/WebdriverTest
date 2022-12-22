@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-21T04:48:35Z" name="Default suite" finished-at="2022-09-21T04:48:35Z" duration-ms="152">
+    <groups>
+    </groups>
+    <test started-at="2022-09-21T04:48:35Z" name="Default test" finished-at="2022-09-21T04:48:35Z" duration-ms="152">
+      <class name="example.NewTest">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:example.NewTest@72d6b3ba]" started-at="2022-09-21T11:48:35Z" name="beforeTest" finished-at="2022-09-21T11:48:35Z" duration-ms="0" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.gecko.driver system property; for more information, see https://github.com/mozilla/geckodriver. The latest version can be downloaded from https://github.com/mozilla/geckodriver/releases
+	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:311)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:135)
+	at org.openqa.selenium.firefox.GeckoDriverService.access$100(GeckoDriverService.java:45)
+	at org.openqa.selenium.firefox.GeckoDriverService$Builder.findDefaultExecutable(GeckoDriverService.java:181)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:437)
+	at org.openqa.selenium.firefox.GeckoDriverService.createDefaultService(GeckoDriverService.java:94)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:98)
+	at org.openqa.selenium.firefox.FirefoxDriver.<init>(FirefoxDriver.java:94)
+	at example.NewTest.beforeTest(NewTest.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testEasy()[pri:0, instance:example.NewTest@72d6b3ba]" started-at="2022-09-21T11:48:35Z" name="testEasy" finished-at="2022-09-21T11:48:35Z" duration-ms="2" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEasy -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:example.NewTest@72d6b3ba]" started-at="2022-09-21T11:48:35Z" name="afterTest" finished-at="2022-09-21T11:48:35Z" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- example.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
