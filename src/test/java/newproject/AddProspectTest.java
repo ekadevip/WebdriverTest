@@ -8,6 +8,6 @@ public class AddProspectTest {
 		System.setProperty("webdriver.chrome.driver","C:\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
     	
-        String baseUrl = "http://localhost:57899/";
+        String baseUrl = "http://localhost:57899";
 	}
 }
