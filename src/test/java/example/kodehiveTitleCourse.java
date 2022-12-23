@@ -18,8 +18,8 @@ public class kodehiveTitleCourse {
     	Thread.sleep(2000);
     	driver.findElement(By.linkText("Mulai Belajar")).click();
     	Thread.sleep(2000);
-    	driver.findElement(By.id("username")).sendKeys("ekadevi03@gmail.com");
-    	driver.findElement(By.id("password")).sendKeys("Masokpakeko12@");
+    	driver.findElement(By.id("username")).sendKeys("ekadevip");
+    	driver.findElement(By.id("password")).sendKeys("Qwerty123!");
     	Thread.sleep(2000);
     	driver.findElement(By.id("loginbtn")).click();
     	Thread.sleep(2000);
